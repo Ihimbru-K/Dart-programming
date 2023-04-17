@@ -1,0 +1,37 @@
+class Stack {
+  List _stackList = [];
+
+  void push(dynamic element) {
+    _stackList.add(element);
+  }
+
+  dynamic pop() {
+    if (_stackList.isNotEmpty) {
+      return _stackList.removeLast();
+    }
+    return null;
+  }
+
+  dynamic peek() {
+    if (_stackList.isNotEmpty) {
+      return _stackList.last;
+    }
+    return null;
+  }
+
+  bool get isEmpty => _stackList.isEmpty;
+
+  int get length => _stackList.length;
+}
+void main() {
+  var stack = Stack();
+  stack.push(1);
+  stack.push(2);
+  stack.push(3);
+
+  print(stack.pop()); // prints 3
+  print(stack.pop()); // prints 2
+  print(stack.pop()); // prints 1
+}
+
+
