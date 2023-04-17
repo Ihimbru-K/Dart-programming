@@ -1,0 +1,23 @@
+/*
+This code creates a new Queue object and adds five elements to it. 
+It then removes the first element from the queue using the removeFirst() method 
+and prints out the removed element and the remaining elements in the queue.
+*/
+
+import 'dart:collection';
+
+void main() {
+  Queue<int> queue = new Queue<int>();
+  queue.add(10);
+  queue.add(20);
+  queue.add(30);
+  queue.add(40);
+  queue.add(50);
+
+  print("Elements of queue : ${queue}");
+
+  int removedElement = queue.removeFirst();
+  print("Removed element : ${removedElement}");
+
+  print("Elements of queue after removing first element : ${queue}");
+}
