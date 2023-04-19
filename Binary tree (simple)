@@ -1,0 +1,15 @@
+class BinaryNode<T> {
+  BinaryNode(this.value);
+  T value;
+  BinaryNode<T>? leftChild;
+  BinaryNode<T>? rightChild;
+}
+
+/*
+we create a class called BinaryNode that has three properties: 
+value, leftChild, and rightChild. 
+The value property stores the value of the node and the leftChild 
+and rightChild properties store references to the left and right child nodes respectively.
+You can use this class to create a binary tree by creating instances of the BinaryNode class 
+and setting their leftChild and rightChild properties as needed.
+*/
