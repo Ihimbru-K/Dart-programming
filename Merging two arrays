@@ -1,0 +1,16 @@
+import 'dart:math' as math;
+
+main() {
+  List<String> array1 = ["John", "Bob", "Fred", "June", "Tom"];
+  List<String> array2 = ["House", "Flat", "Bungalow"];
+
+  //["John", "House", "Bob", "Flat", "Fred", "Bungalow", "June", "Tom"]
+  List<String> output =
+      Iterable.generate(math.max(array1.length, array2.length))
+          .expand((i) sync* {
+    if (i < array1.length) yield array1[i];
+    if (i < array2.length) yield array2[i];
+  }).toList();
+
+  print(output);
+}
