@@ -1,0 +1,25 @@
+abstract class Animal {
+  void makeSound();
+}
+
+class Dog implements Animal {
+  void makeSound() {
+    print('Bark!');
+  }
+}
+
+class Cat implements Animal {
+  void makeSound() {
+    print('Meow!');
+  }
+}
+/
+Abstraction is a concept in object-oriented programming that allows us to
+hide implementation details and only show the necessary features of an object. 
+In Dart, we can implement abstraction using abstract classes and interfaces.
+
+In this example, the Animal class is an abstract class that defines the makeSound() method. 
+The Dog and Cat classes both implement the Animal class and provide their own implementation of the makeSound() method.
+
+
+/
