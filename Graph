@@ -1,0 +1,38 @@
+abstract class Graph<E> {
+  Iterable<Vertex<E>> get vertices;
+  void addVertex(Vertex<E> vertex);
+  void addEdge(Vertex<E> source, Vertex<E> destination);
+}
+
+class Vertex<E> {
+  final E value;
+  Vertex(this.value);
+}
+
+class Edge<E> {
+  final Vertex<E> source;
+  final Vertex<E> destination;
+  Edge(this.source, this.destination);
+}
+
+class AdjacencyList<E> implements Graph<E> {
+  final Map<Vertex<E>, List<Edge<E>>> _connections = {};
+  var _nextIndex = 0;
+
+  @override
+  Iterable<Vertex<E>> get vertices => _connections.keys;
+
+  @override
+  void addVertex(Vertex<E> vertex) {
+    if (_connections.containsKey(vertex)) return;
+    _connections[vertex] = [];
+  }
+
+  @override
+  void addEdge(Vertex<E> source, Vertex<E> destination) {
+    addVertex(source);
+    addVertex(destination);
+    _connections[source].add(Edge(source, destination));
+    _connections[destination].add(Edge(destination, source));
+  }
+}
