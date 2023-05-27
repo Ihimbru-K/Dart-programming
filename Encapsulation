@@ -1,0 +1,19 @@
+class Person {
+  String _name;
+  int _age;
+
+  Person(this._name, this._age);
+
+  String get name => _name;
+  int get age => _age;
+
+  void set name(String name) => _name = name;
+  void set age(int age) => _age = age;
+}
+
+/*
+In this example, _name and _age are private variables that can only be accessed within the class. 
+The get and set methods are used to access these variables from outside the class 
+
+
+*/
