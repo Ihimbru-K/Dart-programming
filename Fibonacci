@@ -1,0 +1,19 @@
+int fibonacci(int n) {
+  if (n == 0) return 0;
+  if (n == 1) return 1;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+void main() {
+  for (var i = 0; i < 10; i++) {
+    print(fibonacci(i));
+  }
+}
+
+/
+This implementation uses recursion to calculate the nth number in the Fibonacci sequence. The function fibonacci
+takes an integer n as input and returns the nth number in the sequence. 
+The main function prints the first ten numbers in the sequence.
+
+/
+
