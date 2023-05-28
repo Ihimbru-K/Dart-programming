@@ -1,0 +1,14 @@
+class Person {
+  String name;
+  int age;
+
+  Person(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
+}
+
+/
+This creates a class called Person with two properties: name and age.
+The constructor takes two parameters: name and age, which are then assigned to the corresponding properties
+/
