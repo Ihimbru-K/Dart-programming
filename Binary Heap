@@ -1,0 +1,83 @@
+class BinaryHeap {
+  List<int> _heap;
+
+  BinaryHeap() {
+    _heap = [];
+  }
+
+  void insert(int value) {
+    _heap.add(value);
+    _bubbleUp(_heap.length - 1);
+  }
+
+  int extractMax() {
+    int max = _heap[0];
+    int end = _heap.length - 1;
+    _heap[0] = _heap[end];
+    _heap.removeAt(end);
+    _sinkDown(0);
+    return max;
+  }
+
+  void _bubbleUp(int index) {
+    int parentIndex = ((index - 1) / 2).floor();
+
+    if (index > 0 && _heap[index] > _heap[parentIndex]) {
+      int temp = _heap[parentIndex];
+      _heap[parentIndex] = _heap[index];
+      _heap[index] = temp;
+      _bubbleUp(parentIndex);
+    }
+  }
+
+  void _sinkDown(int index) {
+    int leftChildIndex = (2 * index) + 1;
+    int rightChildIndex = (2 * index) + 2;
+    int largestChildIndex;
+
+    if (rightChildIndex >= _heap.length) {
+      if (leftChildIndex >= _heap.length) {
+        return;
+      } else {
+        largestChildIndex = leftChildIndex;
+      }
+    } else {
+      if (_heap[leftChildIndex] > _heap[rightChildIndex]) {
+        largestChildIndex = leftChildIndex;
+      } else {
+        largestChildIndex = rightChildIndex;
+      }
+    }
+
+    if (_heap[index] < _heap[largestChildIndex]) {
+      int temp = _heap[largestChildIndex];
+      _heap[largestChildIndex] = _heap[index];
+      _heap[index] = temp;
+      _sinkDown(largestChildIndex);
+    }
+  }
+}
+
+void main() {
+  BinaryHeap heap = BinaryHeap();
+  heap.insert(5);
+  heap.insert(3);
+  heap.insert(8);
+  heap.insert(1);
+
+  print(heap.extractMax()); // Output: 8
+}
+
+
+/
+
+This implementation uses a binary tree structure to represent the heap. 
+The BinaryHeap class has an array _heap to store the elements of the heap. 
+The insert method adds an element to the end of the array and then bubbles it up to its correct position. 
+The extractMax method removes the maximum element from the root of the tree and then sinks down the last element to its correct position.
+
+The _bubbleUp method compares the element at the given index with its parent and swaps them if necessary. 
+The _sinkDown method compares the element at the given index with its children and swaps it with the larger child if necessary.
+
+
+/
