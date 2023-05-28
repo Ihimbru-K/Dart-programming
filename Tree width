@@ -1,0 +1,62 @@
+class Node {
+  int value;
+  Node left;
+  Node right;
+
+  Node(this.value, [this.left, this.right]);
+}
+
+int treeWidth(Node root) {
+  if (root == null) {
+    return 0;
+  }
+
+  int maxWidth = 0;
+  Queue<Node> queue = Queue();
+  queue.add(root);
+
+  while (queue.isNotEmpty) {
+    int count = queue.length;
+
+    if (count > maxWidth) {
+      maxWidth = count;
+    }
+
+    while (count > 0) {
+      Node node = queue.removeFirst();
+
+      if (node.left != null) {
+        queue.add(node.left);
+      }
+
+      if (node.right != null) {
+        queue.add(node.right);
+      }
+
+      count--;
+    }
+  }
+
+  return maxWidth;
+}
+
+void main() {
+  Node root = Node(1);
+  root.left = Node(2);
+  root.right = Node(3);
+  root.left.left = Node(4);
+  root.left.right = Node(5);
+  root.right.left = Node(6);
+  root.right.right = Node(7);
+
+  print(treeWidth(root)); // Output: 4
+}
+
+/
+This implementation uses a breadth-first search algorithm to traverse the binary tree and calculate its width. 
+The Node class represents a node in the binary tree, with an integer value and left and right child nodes. 
+The treeWidth function takes the root node of the binary tree as input and returns its width as an integer.
+The function initializes a queue with the root node and iteratively processes each level of the binary tree. 
+It keeps track of the maximum width seen so far and returns it at the end.
+
+/
