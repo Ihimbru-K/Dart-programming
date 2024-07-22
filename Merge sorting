@@ -1,0 +1,33 @@
+List<int> mergeSort(List<int> nums) {
+  if (nums.length <= 1) {
+    return nums;
+  }
+
+  int mid = nums.length ~/ 2;
+  List<int> left = nums.sublist(0, mid);
+  List<int> right = nums.sublist(mid);
+
+  return merge(mergeSort(left), mergeSort(right));
+}
+
+List<int> merge(List<int> left, List<int> right) {
+  List<int> result = [];
+
+  while (left.isNotEmpty && right.isNotEmpty) {
+    if (left.first < right.first) {
+      result.add(left.removeAt(0));
+    } else {
+      result.add(right.removeAt(0));
+    }
+  }
+
+  return result + left + right;
+}
+
+/
+
+This implementation uses the mergeSort function to recursively 
+split the input list into smaller sublists until each sublist has only one element. 
+Then it uses the merge function to combine the sublists in sorted order
+
+/

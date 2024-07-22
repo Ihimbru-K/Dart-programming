@@ -1,0 +1,26 @@
+class Animal {
+  void makeSound() {
+    print('Animal sound');
+  }
+}
+
+class Dog extends Animal {
+  void makeSound() {
+    print('Bark!');
+  }
+}
+
+class Cat extends Animal {
+  void makeSound() {
+    print('Meow!');
+  }
+}
+
+/
+In this example, 
+the Dog and Cat classes both inherit from the Animal class. 
+They both have a makeSound() method that overrides the makeSound() method of the Animal class. T
+his allows us to treat objects of the Dog and Cat classes as if they were objects of the Animal class.
+
+
+/

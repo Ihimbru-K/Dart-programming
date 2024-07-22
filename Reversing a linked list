@@ -1,0 +1,65 @@
+class Node {
+  int data;
+  Node next;
+  Node(this.data);
+}
+
+class LinkedList {
+  Node head;
+  void add(int data) {
+    if (head == null) {
+      head = Node(data);
+      return;
+    }
+    var current = head;
+    while (current.next != null) {
+      current = current.next;
+    }
+    current.next = Node(data);
+  }
+
+  void reverse() {
+    Node prev = null;
+    var current = head;
+    while (current != null) {
+      var next = current.next;
+      current.next = prev;
+      prev = current;
+      current = next;
+    }
+    head = prev;
+  }
+
+  void printList() {
+    var temp = head;
+    while (temp != null) {
+      print(temp.data);
+      temp = temp.next;
+    }
+  }
+}
+
+void main() {
+  LinkedList list = LinkedList();
+  list.add(1);
+  list.add(2);
+  list.add(3);
+  list.add(4);
+  print("Original List:");
+  list.printList();
+  list.reverse();
+  print("Reversed List:");
+  list.printList();
+}
+
+
+/*
+Explanation
+A linked list is a collection of values arranged in a linear, unidirectional sequence . 
+In the example above, we create a class called Node that has two properties: data and next. 
+The data property stores the value of the node and the next property stores the reference to the next node in the list. 
+We also create a class called LinkedList that has two methods: add() and reverse(). 
+The add() method adds a new node to the end of the list and the reverse() method reverses the order of the nodes in the list.
+In the example above, we create a new linked list with four nodes and print out the original list. 
+We then call the reverse() method on our linked list and print out the reversed list.
+*/

@@ -1,0 +1,22 @@
+int linearSearch<T>(List<T> list, T value) {
+  for (int i = 0; i < list.length; i++) {
+    if (list[i] == value) {
+      return i;
+    }
+  }
+  return -1;
+}
+void main() {
+  List<int> list = [1, 2, 3, 4, 5];
+  int value = 3;
+  int result = linearSearch(list, value);
+  if (result == -1) {
+    print("Element not found");
+  } else {
+    print("Element found at index $result");
+  }
+}
+/*
+*This will output “Element found at index 2”
+since the value of 3 is present at index 2 in the list.
+*

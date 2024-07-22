@@ -1,0 +1,13 @@
+class Stack {
+  List _stack = [];
+
+  void push(item) {
+    _stack.add(item);
+  }
+
+  void pop() {
+    _stack.removeLast();
+  }
+
+  bool get isEmpty => _stack.isEmpty;
+}

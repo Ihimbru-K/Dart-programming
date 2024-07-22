@@ -1,0 +1,24 @@
+class Animal {
+  String name;
+  int age;
+
+  Animal(this.name, this.age);
+
+  void makeSound() {
+    print('Animal sound');
+  }
+}
+
+class Dog extends Animal {
+  Dog(String name, int age) : super(name, age);
+
+  void bark() {
+    print('Bark!');
+  }
+}
+
+
+/*
+In this example, the Dog class extends the Animal class using the extends keyword. 
+The Dog class inherits the properties and methods of the Animal class .
+*/

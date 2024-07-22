@@ -1,0 +1,38 @@
+List<int> mergeSort(List<int> nums) {
+  if (nums.length <= 1) {
+    return nums;
+  }
+  int mid = nums.length ~/ 2;
+  List<int> left = nums.sublist(0, mid);
+  List<int> right = nums.sublist(mid);
+  return merge(mergeSort(left), mergeSort(right));
+}
+
+List<int> merge(List<int> left, List<int> right) {
+  List<int> result = [];
+  int i = 0;
+  int j = 0;
+  while (i < left.length && j < right.length) {
+    if (left[i] < right[j]) {
+      result.add(left[i]);
+      i++;
+    } else {
+      result.add(right[j]);
+      j++;
+    }
+  }
+  while (i < left.length) {
+    result.add(left[i]);
+    i++;
+  }
+  while (j < right.length) {
+    result.add(right[j]);
+    j++;
+  }
+  return result;
+}
+
+void main() {
+  List<int> nums = [3, 5, 1, -7, 4, 9];
+  print(mergeSort(nums));
+}

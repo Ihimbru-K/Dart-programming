@@ -1,0 +1,136 @@
+//Dart all in all touches all basic concepts of dart programming
+main() {
+  print("Hello World!");
+  var country = "Cameroon";
+  String name;
+  name = "Kboy";
+
+//Numbers (Integers and double)
+
+  num Age =
+      34; //num keyword can be used to declare both integer and decimal numbers
+  num height = 1.72;
+
+  int age2 = 22; //specific declaration of an integer
+  double height2 = 1.74; //specific declaration of a float type
+
+// Boolean type (1 or 0, true or false)
+
+  bool isTrue = true;
+  bool isFalse = false;
+
+//const and final keywords
+/*
+const keyword is used when we want a variable to be a constant at compile-time
+final keyword is used when we want a variable to be constant at all times
+*/
+
+  const pi = 3.14;
+  final g = 9.81;
+
+/*
+Concatenation
+Adding two variables together
+*/
+
+  String FirstName = "James";
+  String LastName = "Bond";
+  int age = 45;
+
+  print("$FirstName $LastName is $age years old");
+
+//Arithmetic operators (+, -, *, /, %)
+  double gravity = 9.81;
+  double Pi = 3.14;
+  var sum = gravity + pi;
+  var product = gravity * pi;
+  var division = gravity / pi;
+  var subtract = gravity - pi;
+  var remainder = gravity % Pi;
+
+  print("$sum, $product, $division, $subtract, $remainder ");
+
+//Equality and relational operators ==, !=, >, <, >=, <=
+
+  int num1 = 44;
+  int num2 = 33;
+  int num3 = 44;
+  print(num3);
+
+  if (num1 == num2 && num1.isEven) {
+    print("Numbers are equal");
+  } else if (num1 > num2 && num2.isOdd) {
+    print("$num1 is greater than $num2");
+  } else {
+    print("$num1 is less than $num2");
+    print(num1 is! bool);
+  }
+
+  //for loop
+  for (var i = 0; i <= 4; i++) {
+    print("Hello $i times");
+  }
+
+  //while loop
+  int n = 0;
+  do {
+    n++;
+    print(n);
+  } while (n < 9);
+
+  //Switch case
+  var Age3 = 22;
+
+  switch (Age3) {
+    case 15:
+      print("You are still a minor");
+      break;
+    case 20:
+      print("You are an adult");
+      break;
+    case 45:
+      print("Middle aged");
+      break;
+    case 80:
+      print("Old");
+      break;
+    default:
+      print("Default $age");
+  }
+
+  String name2 = "";
+  name2 = "Ihimbru";
+  print(name2);
+
+  print(name);
+  print(country);
+
+  print(Age);
+  print(height);
+  print(age2);
+  print(height2);
+
+  print(isTrue);
+  print(isFalse);
+  print(g);
+
+  for (var i = 0; i <= 5; i++) {
+    print("I have been printed $i times");
+  }
+
+  var agex = 21;
+
+  switch (agex) {
+    case 21:
+      print("You are not a teenager");
+      break;
+    case 34:
+      print("You are no longer a youth");
+      break;
+    case 60:
+      print("You are getting old");
+      break;
+    default:
+      print("Your age is not among the options");
+  }
+}

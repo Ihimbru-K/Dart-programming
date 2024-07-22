@@ -1,0 +1,30 @@
+int binarySearch<T>(List<T> sortedList, T value,{int Function(T, T)? compare}) {
+  compare ??= defaultCompare();
+  int low = 0;
+  int high = sortedList.length - 1;
+  while (low <= high) {
+    int mid = low + ((high - low) ~/ 2);
+    var element = sortedList[mid];
+    var comp = compare(element, value);
+    if (comp == 0) {
+      return mid;
+    } else if (comp < 0) {
+      low = mid + 1;
+    } else {
+      high = mid - 1;
+    }
+  }
+  return -1;
+}
+
+int defaultCompare<T extends Comparable<T>>(T a, T b) => a.compareTo(b);
+void main() {
+  List<int> sortedList = [1, 2, 3, 4, 5];
+  int value = 3;
+  int result = binarySearch(sortedList, value);
+  if (result == -1) {
+    print("Element not found");
+  } else {
+    print("Element found at index $result");
+  }
+}

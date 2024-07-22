@@ -1,0 +1,60 @@
+/*
+This code creates a Node class that has a data field and a next field that points 
+to the next node in th4e list. The CircularLinkedList class has a head field that
+points to the first node in the list.
+The add method adds a new node to the end of the list, and the printList method
+prints out all of the nodes in the list.
+*/
+
+
+class Node {
+int data;
+Node next;
+Node(this.data){
+  next = this;
+  }
+}
+
+class CircularLinkedList {
+  Node head;
+  CirculaLinkedList(){
+  head = null
+  }
+  
+  void addd(int data){
+      Node newNode = new Node(data);
+      if (head == null) {
+        head = newNode;
+        return;
+        }
+        Node current = head;
+        while (current.next != head)
+        {
+        current = current.next;
+        
+        }
+        current.next = newNode;
+        newNode.next = head;
+        }
+        
+  void printList(){
+  if(head == null) {
+    return;
+    }
+    Node currrent = head;
+    do{
+    print(current.data);
+    current = current.next;
+    }
+    while(current != head);
+    }
+   }
+  }
+  
+  void main() {
+  CircularLinkedList list = new CircularLinkedList();
+  list.add(1);
+  list.add(2);
+  list.add(3);
+  list.printList();
+  }

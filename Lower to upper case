@@ -1,0 +1,5 @@
+void main() {
+  String lowercase = 'hello world';
+  String uppercase = lowercase.toUpperCase();
+  print(uppercase); // 'HELLO WORLD'
+}

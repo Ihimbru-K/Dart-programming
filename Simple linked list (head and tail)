@@ -1,0 +1,44 @@
+class LinkedList<T> {
+  Node<T> head;
+  Node<T> tail;
+
+  void add(T value) {
+    final node = Node(value);
+    if (head == null) {
+      head = node;
+      tail = node;
+    } else {
+      tail.next = node;
+      tail = node;
+    }
+  }
+
+  void remove(T value) {
+    if (head == null) return;
+
+    if (head.value == value) {
+      head = head.next;
+      if (head == null) tail = null;
+      return;
+    }
+
+    var prev = head;
+    var current = head.next;
+    while (current != null) {
+      if (current.value == value) {
+        prev.next = current.next;
+        if (prev.next == null) tail = prev;
+        return;
+      }
+      prev = current;
+      current = current.next;
+    }
+  }
+}
+
+class Node<T> {
+  final T value;
+  Node<T> next;
+
+  Node(this.value);
+}
