@@ -1,0 +1,20 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "stack",
+      "rootUri": "file:///C:/Users/IHIMBRU/AppData/Local/Pub/Cache/hosted/pub.dev/stack-0.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "dsa",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    }
+  ],
+  "generated": "2024-07-22T19:37:41.037122Z",
+  "generator": "pub",
+  "generatorVersion": "3.3.4"
+}

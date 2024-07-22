@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd7defc-41e2-439b-9c62-d8b4d02d12e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/dart/data_structures/maps.dart" beforeDir="false" afterPath="$PROJECT_DIR$/dart/data_structures/maps.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dart/data_structures/stack.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

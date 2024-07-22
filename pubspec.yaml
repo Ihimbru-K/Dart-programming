@@ -1,0 +1,6 @@
+environment:
+  sdk: ^3.0.0
+
+name: dsa
+dependencies:
+  stack:
