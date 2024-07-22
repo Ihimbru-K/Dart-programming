@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fcd7defc-41e2-439b-9c62-d8b4d02d12e5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dart/data_structures/list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/dart/data_structures/list.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart/data_structures/maps.dart" beforeDir="false" afterPath="$PROJECT_DIR$/dart/data_structures/maps.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Dart Command Line App.list.dart">
+  <component name="RunManager" selected="Dart Command Line App.maps.dart">
     <configuration name="ex1_print1to10.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/ex1_print1to10.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -52,11 +52,6 @@
     </configuration>
     <configuration name="ex2_odd_num_less_than_100.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/ex2_odd_num_less_than_100.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex4_multiplication_table_from_1_to_10.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex4_multiplication_table_from_1_to_10.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -75,21 +70,26 @@
       <option name="workingDirectory" value="$PROJECT_DIR$/dart/data_structures" />
       <method v="2" />
     </configuration>
+    <configuration name="maps.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/dart/data_structures/maps.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/dart/data_structures" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Dart Command Line App.exception_handling.dart" />
+      <item itemvalue="Dart Command Line App.maps.dart" />
       <item itemvalue="Dart Command Line App.list.dart" />
       <item itemvalue="Dart Command Line App.ex1_print1to10.dart" />
       <item itemvalue="Dart Command Line App.ex2_odd_num_less_than_100.dart" />
-      <item itemvalue="Dart Command Line App.ex4_multiplication_table_from_1_to_10.dart" />
       <item itemvalue="Dart Command Line App.ex5_sum_of_numbers_from_1_to_10.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.maps.dart" />
         <item itemvalue="Dart Command Line App.list.dart" />
         <item itemvalue="Dart Command Line App.ex1_print1to10.dart" />
         <item itemvalue="Dart Command Line App.ex2_odd_num_less_than_100.dart" />
         <item itemvalue="Dart Command Line App.ex5_sum_of_numbers_from_1_to_10.dart" />
-        <item itemvalue="Dart Command Line App.ex4_multiplication_table_from_1_to_10.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -114,5 +114,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/dart/data_structures/maps.dart</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
