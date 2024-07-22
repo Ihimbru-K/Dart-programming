@@ -6,6 +6,7 @@ import 'package:stack/stack.dart';
 void main(){
 
   Stack<int> myStack = Stack();
+  //push in 
   myStack.push(10);
   myStack.push(50);
   myStack.push(60);
@@ -17,6 +18,9 @@ void main(){
   print(myStack.isNotEmpty);
   myStack.pop();
   print(myStack.length);
+
+
+
 
 
 
