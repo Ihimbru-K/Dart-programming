@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd7defc-41e2-439b-9c62-d8b4d02d12e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dart/data_structures/stack.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart/data_structures/stack.dart" beforeDir="false" afterPath="$PROJECT_DIR$/dart/data_structures/stack.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Dart Command Line App.maps.dart">
+  <component name="RunManager" selected="Dart Command Line App.stack.dart">
     <configuration name="ex1_print1to10.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/ex1_print1to10.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -53,11 +52,6 @@
     <configuration name="ex2_odd_num_less_than_100.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/ex2_odd_num_less_than_100.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex5_sum_of_numbers_from_1_to_10.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/../DSA_dart/ex5_sum_of_numbers_from_1_to_10.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/../DSA_dart" />
       <method v="2" />
     </configuration>
     <configuration name="exception_handling.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
@@ -75,21 +69,26 @@
       <option name="workingDirectory" value="$PROJECT_DIR$/dart/data_structures" />
       <method v="2" />
     </configuration>
+    <configuration name="stack.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/dart/data_structures/stack.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Dart Command Line App.exception_handling.dart" />
       <item itemvalue="Dart Command Line App.maps.dart" />
+      <item itemvalue="Dart Command Line App.stack.dart" />
       <item itemvalue="Dart Command Line App.list.dart" />
       <item itemvalue="Dart Command Line App.ex1_print1to10.dart" />
       <item itemvalue="Dart Command Line App.ex2_odd_num_less_than_100.dart" />
-      <item itemvalue="Dart Command Line App.ex5_sum_of_numbers_from_1_to_10.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.stack.dart" />
         <item itemvalue="Dart Command Line App.maps.dart" />
         <item itemvalue="Dart Command Line App.list.dart" />
         <item itemvalue="Dart Command Line App.ex1_print1to10.dart" />
         <item itemvalue="Dart Command Line App.ex2_odd_num_less_than_100.dart" />
-        <item itemvalue="Dart Command Line App.ex5_sum_of_numbers_from_1_to_10.dart" />
       </list>
     </recent_temporary>
   </component>
