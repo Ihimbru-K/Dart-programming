@@ -42,9 +42,35 @@ void main() {
   myMap.remove("Pages");
   print(myMap);
 
+  myMap["Pages"] = 50;
+  
+  myMap.removeWhere((key, value) {if(value is int){
+    return value % 2 == 0;
+  }
+  return false;
+  });
+  print(myMap);
 
+
+
+  //creating a map of specific data types and looping through them
+
+  Map<String, int> myMap2 = {"Age": 22, "degree_length" : 4, "course_number":45};
+
+  for(String k in myMap2.keys){
+    print(myMap2[k]);
+  }
+
+  myMap2.forEach((key, value) {print("Key : $key, value : $value");});
 
 
   
+
+
+
+
+
+
+
 
 }
