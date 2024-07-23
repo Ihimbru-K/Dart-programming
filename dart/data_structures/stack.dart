@@ -6,7 +6,7 @@ import 'package:stack/stack.dart';
 void main(){
 
   Stack<int> myStack = Stack();
-  //push in 
+  //push into s
   myStack.push(10);
   myStack.push(50);
   myStack.push(60);
