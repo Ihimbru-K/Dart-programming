@@ -8,8 +8,4 @@ void main(){
       print(i);
     }
   }
-
-
-
-
 }
