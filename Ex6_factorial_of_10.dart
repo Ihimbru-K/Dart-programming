@@ -1,10 +1,30 @@
 
 
+
+
+
+
+
+
 void main(){
-  int num = 10, fact = 1;
-  for(int j = 1; j<11; j++){
-    fact = fact*j;
+
+  var n = 10;
+  var fact = n;
+  while(n >= 1){
+   // fact = n;
+
+    fact = fact*n;
+    n--;
   }
   print(fact);
+
+
+
+
+
+
+
+
+
 
 }

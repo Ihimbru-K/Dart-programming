@@ -13,7 +13,6 @@ void main() {
   map["name"] = "Ihimbru";
   map["age"] = 22;
 
-
   map["name"] = "Kanimi";
   map["age"] = 44;
 
@@ -62,11 +61,6 @@ void main() {
   }
 
   myMap2.forEach((key, value) {print("Key : $key, value : $value");});
-
-
-  
-
-
 
 
 
