@@ -1,7 +1,7 @@
 //an exception is a problem that arises that changes the flow of a program
 //
 
-//eg I/O exceptions, Integer division by 0
+//eg I/O exceptions, Integer division by
 
 void main(){
 
