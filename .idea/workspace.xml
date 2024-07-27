@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd7defc-41e2-439b-9c62-d8b4d02d12e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ex15_prime_num_check.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex14_nth_fibonacci_using_recursion.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex14_nth_fibonacci_using_recursion.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex16_sum_of_digits_of_positive_num.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex16_sum_of_digits_of_positive_num.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +44,9 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Dart Command Line App.ex15_prime_num_check.dart">
+  <component name="RunManager" selected="Dart Command Line App.ex16_sum_of_digits_of_positive_num.dart">
     <configuration name="Ex13_fibonacci_without_recursion.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/Ex13_fibonacci_without_recursion.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Ex18_first_100_prime_numbers.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/Ex18_first_100_prime_numbers.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -63,6 +57,11 @@
     </configuration>
     <configuration name="ex15_prime_num_check.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/ex15_prime_num_check.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex16_sum_of_digits_of_positive_num.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex16_sum_of_digits_of_positive_num.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -81,16 +80,16 @@
       <item itemvalue="Dart Command Line App.Ex13_fibonacci_without_recursion.dart" />
       <item itemvalue="Dart Command Line App.ex14_nth_fibonacci_using_recursion.dart" />
       <item itemvalue="Dart Command Line App.ex15_prime_num_check.dart" />
+      <item itemvalue="Dart Command Line App.ex16_sum_of_digits_of_positive_num.dart" />
       <item itemvalue="Dart Command Line App.merge_arrays.dart" />
-      <item itemvalue="Dart Command Line App.Ex18_first_100_prime_numbers.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.ex16_sum_of_digits_of_positive_num.dart" />
         <item itemvalue="Dart Command Line App.ex15_prime_num_check.dart" />
         <item itemvalue="Dart Command Line App.ex14_nth_fibonacci_using_recursion.dart" />
         <item itemvalue="Dart Command Line App.Ex13_fibonacci_without_recursion.dart" />
         <item itemvalue="Dart Command Line App.merge_arrays.dart" />
-        <item itemvalue="Dart Command Line App.Ex18_first_100_prime_numbers.dart" />
       </list>
     </recent_temporary>
   </component>
