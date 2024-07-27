@@ -6,14 +6,29 @@ import 'dart:math';
 List<int> FirstPPrimeNumGreaterThanN(int p, int n){
 
   List<int> array = [];
-  for(int i = n+1; i<=p ; i++){
-    for(int j = 2; j<= sqrt(i) ;  j++){
-      if(i % j != 0){
-        array.add(i);
+  int count = 0;
+  int start = n+1;
+
+
+
+    while(count < p){
+      bool isPrime = true;
+      for(int j = 2; j<= sqrt(start) ;  j++){
+        if(start % 2 == 0){
+          isPrime = false;
+          break;
+        }
       }
+      if(isPrime ){
+
+        array.add(start);
+        count ++;
+
+      }
+      start ++;
+
     }
 
-  }
   return array;
 }
 
