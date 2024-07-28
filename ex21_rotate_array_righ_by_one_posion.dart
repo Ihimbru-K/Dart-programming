@@ -3,9 +3,11 @@
 
 List<int> RotateArrayRightBy1a(List<int> arr){
 
-  var last_elt = arr[arr.length -1];
+  int last_elt = arr[arr.length -1];
+
 
   arr.insert(0, last_elt);
+  arr.removeLast();
 
   return arr;
 }
