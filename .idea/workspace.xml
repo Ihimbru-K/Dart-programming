@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd7defc-41e2-439b-9c62-d8b4d02d12e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ex21_rotate_array_righ_by_one_posion.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex20_rotate_array_left_by_1_position.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex20_rotate_array_left_by_1_position.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +27,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2WOO2vaz75Sx16dSEgWpsE8KCsU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
