@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd7defc-41e2-439b-9c62-d8b4d02d12e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex20_rotate_array_left_by_1_position.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex20_rotate_array_left_by_1_position.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +43,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Dart Command Line App.Ex19_first_p_prime_num_greater_than_n.dart">
-    <configuration name="Ex13_fibonacci_without_recursion.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/Ex13_fibonacci_without_recursion.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Dart Command Line App.ex20_rotate_array_left_by_1_position.dart">
     <configuration name="Ex19_first_p_prime_num_greater_than_n.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/Ex19_first_p_prime_num_greater_than_n.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -69,6 +64,11 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="ex20_rotate_array_left_by_1_position.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex20_rotate_array_left_by_1_position.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="exception_handling.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/exception_handling.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -76,7 +76,7 @@
     </configuration>
     <list>
       <item itemvalue="Dart Command Line App.exception_handling.dart" />
-      <item itemvalue="Dart Command Line App.Ex13_fibonacci_without_recursion.dart" />
+      <item itemvalue="Dart Command Line App.ex20_rotate_array_left_by_1_position.dart" />
       <item itemvalue="Dart Command Line App.Ex19_first_p_prime_num_greater_than_n.dart" />
       <item itemvalue="Dart Command Line App.ex14_nth_fibonacci_using_recursion.dart" />
       <item itemvalue="Dart Command Line App.ex15_prime_num_check.dart" />
@@ -84,11 +84,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.ex20_rotate_array_left_by_1_position.dart" />
         <item itemvalue="Dart Command Line App.Ex19_first_p_prime_num_greater_than_n.dart" />
         <item itemvalue="Dart Command Line App.ex16_sum_of_digits_of_positive_num.dart" />
         <item itemvalue="Dart Command Line App.ex15_prime_num_check.dart" />
         <item itemvalue="Dart Command Line App.ex14_nth_fibonacci_using_recursion.dart" />
-        <item itemvalue="Dart Command Line App.Ex13_fibonacci_without_recursion.dart" />
       </list>
     </recent_temporary>
   </component>
