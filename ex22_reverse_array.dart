@@ -6,10 +6,6 @@ List<int> ReverseArray(List<int> arr){
   List<int> rev_arr = [];
 
   for(int i = arr.length-1 ; i>= 0 ; i--){
-    // for(int j = 0; j<= rev_arr.length; j++){
-    //
-    //   rev_arr[j] = arr[i];
-    // }
     rev_arr.add(arr[i]);
 
   }
