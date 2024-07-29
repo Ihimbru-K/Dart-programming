@@ -46,12 +46,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Dart Command Line App.ex24_array_of_distinct_numbers_in_2_arrays.dart">
-    <configuration name="ex20_rotate_array_left_by_1_position.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex20_rotate_array_left_by_1_position.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Dart Command Line App.ex25_accept_array_and_return_distinct_array.dart">
     <configuration name="ex21_rotate_array_righ_by_one_posion.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/ex21_rotate_array_righ_by_one_posion.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -72,6 +67,11 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="ex25_accept_array_and_return_distinct_array.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex25_accept_array_and_return_distinct_array.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="exception_handling.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/exception_handling.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -79,7 +79,7 @@
     </configuration>
     <list>
       <item itemvalue="Dart Command Line App.exception_handling.dart" />
-      <item itemvalue="Dart Command Line App.ex20_rotate_array_left_by_1_position.dart" />
+      <item itemvalue="Dart Command Line App.ex25_accept_array_and_return_distinct_array.dart" />
       <item itemvalue="Dart Command Line App.ex21_rotate_array_righ_by_one_posion.dart" />
       <item itemvalue="Dart Command Line App.ex22_reverse_array.dart" />
       <item itemvalue="Dart Command Line App.ex23_merge_two_arrays.dart" />
@@ -87,11 +87,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.ex25_accept_array_and_return_distinct_array.dart" />
         <item itemvalue="Dart Command Line App.ex24_array_of_distinct_numbers_in_2_arrays.dart" />
         <item itemvalue="Dart Command Line App.ex23_merge_two_arrays.dart" />
         <item itemvalue="Dart Command Line App.ex22_reverse_array.dart" />
         <item itemvalue="Dart Command Line App.ex21_rotate_array_righ_by_one_posion.dart" />
-        <item itemvalue="Dart Command Line App.ex20_rotate_array_left_by_1_position.dart" />
       </list>
     </recent_temporary>
   </component>
