@@ -4,15 +4,19 @@
 
 List<int> ReturnDistinctArr(List<int> arr){
 
-  for(int i = 0; i< arr.length; i++){
-    if(arr[i] == arr[i+1] ){
+  List<int> distinctArr = [];
 
-      arr.removeAt(arr[i+1]);
+
+  for(int i = 0; i< arr.length; i++){
+    if(!distinctArr.contains(arr[i])){
+      distinctArr.add(arr[i]);
+      distinctArr.sort();
+
 
     }
 
   }
-  return arr;
+  return distinctArr;
 
 
 
@@ -34,7 +38,7 @@ void main(){
 
 
 
-print(ReturnDistinctArr([1,2,2,2,4]));
+print(ReturnDistinctArr([1,4,5,9,8,2,4]));
 
 
 
