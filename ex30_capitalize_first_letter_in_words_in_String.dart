@@ -28,12 +28,6 @@ String FirstLettersOfWordsToUpperCase(String text){
 
 
 
-
-
-
-
-
-
 void main(){
 
  var text = FirstLettersOfWordsToUpperCase("i am a boy");
