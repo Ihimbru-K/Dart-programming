@@ -2,7 +2,7 @@ import 'dart:math';
 
 List<int> returnFirstNPrimeNumInArray(int n) {
   List<int> primeNumArr = [];
-  int num = 2; // Starting from 2, as 1 is not a prime number
+  int num = 2;
 
   while (primeNumArr.length < n) {
     bool isPrime = true;
@@ -28,5 +28,5 @@ List<int> returnFirstNPrimeNumInArray(int n) {
 
 void main() {
   List<int> primes = returnFirstNPrimeNumInArray(100);
-  print("First 100 prime numbers: $primes");
+  //print("First 100 prime numbers: $primes");
 }
