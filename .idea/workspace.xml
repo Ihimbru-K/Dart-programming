@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd7defc-41e2-439b-9c62-d8b4d02d12e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex28_.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex28_add_string_rep_of_numbers.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex29_number_of_words_in_a_text.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex29_number_of_words_in_a_text.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +46,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Dart Command Line App.ex28_add_string_rep_of_numbers.dart">
-    <configuration name="ex24_array_of_distinct_numbers_in_2_arrays.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex24_array_of_distinct_numbers_in_2_arrays.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Dart Command Line App.ex29_number_of_words_in_a_text.dart">
     <configuration name="ex25_accept_array_and_return_distinct_array.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/ex25_accept_array_and_return_distinct_array.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -73,6 +67,11 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="ex29_number_of_words_in_a_text.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex29_number_of_words_in_a_text.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="exception_handling.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/exception_handling.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -81,18 +80,18 @@
     <list>
       <item itemvalue="Dart Command Line App.exception_handling.dart" />
       <item itemvalue="Dart Command Line App.ex28_add_string_rep_of_numbers.dart" />
+      <item itemvalue="Dart Command Line App.ex29_number_of_words_in_a_text.dart" />
       <item itemvalue="Dart Command Line App.ex25_accept_array_and_return_distinct_array.dart" />
       <item itemvalue="Dart Command Line App.ex26_sum_of_first_100_prime_numbers_returned_in_array.dart" />
       <item itemvalue="Dart Command Line App.ex27_distance_between_first_100_prime_numbers.dart" />
-      <item itemvalue="Dart Command Line App.ex24_array_of_distinct_numbers_in_2_arrays.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.ex29_number_of_words_in_a_text.dart" />
         <item itemvalue="Dart Command Line App.ex28_add_string_rep_of_numbers.dart" />
         <item itemvalue="Dart Command Line App.ex27_distance_between_first_100_prime_numbers.dart" />
         <item itemvalue="Dart Command Line App.ex26_sum_of_first_100_prime_numbers_returned_in_array.dart" />
         <item itemvalue="Dart Command Line App.ex25_accept_array_and_return_distinct_array.dart" />
-        <item itemvalue="Dart Command Line App.ex24_array_of_distinct_numbers_in_2_arrays.dart" />
       </list>
     </recent_temporary>
   </component>
