@@ -47,7 +47,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Dart Command Line App.ex28_.dart">
+  <component name="RunManager" selected="Dart Command Line App.ex28_add_string_rep_of_numbers.dart">
     <configuration name="ex24_array_of_distinct_numbers_in_2_arrays.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/ex24_array_of_distinct_numbers_in_2_arrays.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -68,8 +68,8 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="ex28_.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex28_.dart" />
+    <configuration name="ex28_add_string_rep_of_numbers.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex28_add_string_rep_of_numbers.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -80,7 +80,7 @@
     </configuration>
     <list>
       <item itemvalue="Dart Command Line App.exception_handling.dart" />
-      <item itemvalue="Dart Command Line App.ex28_.dart" />
+      <item itemvalue="Dart Command Line App.ex28_add_string_rep_of_numbers.dart" />
       <item itemvalue="Dart Command Line App.ex25_accept_array_and_return_distinct_array.dart" />
       <item itemvalue="Dart Command Line App.ex26_sum_of_first_100_prime_numbers_returned_in_array.dart" />
       <item itemvalue="Dart Command Line App.ex27_distance_between_first_100_prime_numbers.dart" />
@@ -88,7 +88,7 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.ex28_.dart" />
+        <item itemvalue="Dart Command Line App.ex28_add_string_rep_of_numbers.dart" />
         <item itemvalue="Dart Command Line App.ex27_distance_between_first_100_prime_numbers.dart" />
         <item itemvalue="Dart Command Line App.ex26_sum_of_first_100_prime_numbers_returned_in_array.dart" />
         <item itemvalue="Dart Command Line App.ex25_accept_array_and_return_distinct_array.dart" />
