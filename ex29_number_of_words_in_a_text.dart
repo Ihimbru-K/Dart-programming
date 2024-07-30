@@ -3,20 +3,14 @@
 
 int ReturnNumberOfWordsInAText(String text){
 
-  int sum = 0;
-
-  for(int i = 0; i< text.length; i++){
-
-    if(text.contains(" ") || text.contains(",")){
-      sum ++;
 
 
-    }
 
+  List<int> words = text.split(RegExp(r'\s+|,\s*')).cast<int>();
 
-  }
+  var sum = words.length;
+
   return sum;
-
 
 
 
@@ -33,7 +27,7 @@ int ReturnNumberOfWordsInAText(String text){
 
 
 void main(){
-  print(ReturnNumberOfWordsInAText("I am a boy "));
+  print(ReturnNumberOfWordsInAText("I am a boy"));
 
 
 
