@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd7defc-41e2-439b-9c62-d8b4d02d12e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ex30_capitalize_first_letter_in_words_in_String.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex30_capitalize_first_letter_in_words_in_String.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex30_capitalize_first_letter_in_words_in_String.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +47,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Dart Command Line App.ex29_number_of_words_in_a_text.dart">
-    <configuration name="ex25_accept_array_and_return_distinct_array.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex25_accept_array_and_return_distinct_array.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Dart Command Line App.ex30_capitalize_first_letter_in_words_in_String.dart">
     <configuration name="ex26_sum_of_first_100_prime_numbers_returned_in_array.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/ex26_sum_of_first_100_prime_numbers_returned_in_array.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -72,6 +68,11 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="ex30_capitalize_first_letter_in_words_in_String.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex30_capitalize_first_letter_in_words_in_String.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="exception_handling.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/exception_handling.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -81,17 +82,17 @@
       <item itemvalue="Dart Command Line App.exception_handling.dart" />
       <item itemvalue="Dart Command Line App.ex28_add_string_rep_of_numbers.dart" />
       <item itemvalue="Dart Command Line App.ex29_number_of_words_in_a_text.dart" />
-      <item itemvalue="Dart Command Line App.ex25_accept_array_and_return_distinct_array.dart" />
+      <item itemvalue="Dart Command Line App.ex30_capitalize_first_letter_in_words_in_String.dart" />
       <item itemvalue="Dart Command Line App.ex26_sum_of_first_100_prime_numbers_returned_in_array.dart" />
       <item itemvalue="Dart Command Line App.ex27_distance_between_first_100_prime_numbers.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.ex30_capitalize_first_letter_in_words_in_String.dart" />
         <item itemvalue="Dart Command Line App.ex29_number_of_words_in_a_text.dart" />
         <item itemvalue="Dart Command Line App.ex28_add_string_rep_of_numbers.dart" />
         <item itemvalue="Dart Command Line App.ex27_distance_between_first_100_prime_numbers.dart" />
         <item itemvalue="Dart Command Line App.ex26_sum_of_first_100_prime_numbers_returned_in_array.dart" />
-        <item itemvalue="Dart Command Line App.ex25_accept_array_and_return_distinct_array.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +137,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/Ex13_fibonacci_without_recursion.dart</url>
+          <url>file://$PROJECT_DIR$/ex13_fibonacci_without_recursion.dart</url>
           <line>18</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
