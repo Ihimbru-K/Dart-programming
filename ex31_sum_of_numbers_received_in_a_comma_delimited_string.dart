@@ -15,18 +15,11 @@ int SumNumbersInCommaDelimitedString(String string){
 
   return sum;
 
-
-
-
 }
 
 
 void main(){
 
 print(SumNumbersInCommaDelimitedString("5,1,4"));
-
-
-
-
 
 }
