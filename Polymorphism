@@ -20,7 +20,7 @@ class Cat extends Animal {
 In this example, 
 the Dog and Cat classes both inherit from the Animal class. 
 They both have a makeSound() method that overrides the makeSound() method of the Animal class. T
-his allows us to treat objects of the Dog and Cat classes as if they were objects of the Animal class.
+his allows us to treat objects of the Dog and Cat classes as if they were objects of the Animal class
 
 
 /
