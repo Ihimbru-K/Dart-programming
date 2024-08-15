@@ -29,4 +29,5 @@ List<int> returnFirstNPrimeNumInArray(int n) {
 void main() {
   List<int> primes = returnFirstNPrimeNumInArray(100);
   //print("First 100 prime numbers: $primes");
+
 }
