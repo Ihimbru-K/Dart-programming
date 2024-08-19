@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd7defc-41e2-439b-9c62-d8b4d02d12e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex38_convert_array_of_ascii_codes_to_string.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex38_convert_array_of_ascii_codes_to_string.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex39_caesar_cipher.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex39_caesar_cipher.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex40_bubble_sort_algorithm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex40_bubble_sort_algorithm.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +46,9 @@
     "Dart Command Line App.ex31_sum_of_numbers_received_in_a_comma_delimited_string.dart.executor": "Run",
     "Dart Command Line App.ex32_array_with_words_inside_a_text.dart.executor": "Run",
     "Dart Command Line App.ex36_convert_string_to_array_of_characters.dart.executor": "Run",
+    "Dart Command Line App.ex37_convert_Strings_to_an_array_of_ascii_codes_of_each_.dart.executor": "Run",
+    "Dart Command Line App.ex38_convert_array_of_ascii_codes_to_string.dart.executor": "Run",
+    "Dart Command Line App.ex39_caesar_cipher.dart.executor": "Run",
     "Dart Command Line App.ex40_bubble_sort_algorithm.dart.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -58,6 +58,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/IHIMBRU/Desktop/chapp/Chatter-App",
     "settings.editor.selected.configurable": "dart.settings",
@@ -71,23 +72,23 @@
     </key>
   </component>
   <component name="RunManager" selected="Dart Command Line App.ex40_bubble_sort_algorithm.dart">
-    <configuration name="ex27_distance_between_first_100_prime_numbers.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex27_distance_between_first_100_prime_numbers.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex31_sum_of_numbers_received_in_a_comma_delimited_string.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex31_sum_of_numbers_received_in_a_comma_delimited_string.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex32_array_with_words_inside_a_text.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex32_array_with_words_inside_a_text.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="ex36_convert_string_to_array_of_characters.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/ex36_convert_string_to_array_of_characters.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex37_convert_Strings_to_an_array_of_ascii_codes_of_each_.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex37_convert_Strings_to_an_array_of_ascii_codes_of_each_.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex38_convert_array_of_ascii_codes_to_string.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex38_convert_array_of_ascii_codes_to_string.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex39_caesar_cipher.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex39_caesar_cipher.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -103,19 +104,19 @@
     </configuration>
     <list>
       <item itemvalue="Dart Command Line App.exception_handling.dart" />
+      <item itemvalue="Dart Command Line App.ex37_convert_Strings_to_an_array_of_ascii_codes_of_each_.dart" />
+      <item itemvalue="Dart Command Line App.ex38_convert_array_of_ascii_codes_to_string.dart" />
+      <item itemvalue="Dart Command Line App.ex39_caesar_cipher.dart" />
       <item itemvalue="Dart Command Line App.ex40_bubble_sort_algorithm.dart" />
-      <item itemvalue="Dart Command Line App.ex27_distance_between_first_100_prime_numbers.dart" />
-      <item itemvalue="Dart Command Line App.ex31_sum_of_numbers_received_in_a_comma_delimited_string.dart" />
-      <item itemvalue="Dart Command Line App.ex32_array_with_words_inside_a_text.dart" />
       <item itemvalue="Dart Command Line App.ex36_convert_string_to_array_of_characters.dart" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Dart Command Line App.ex40_bubble_sort_algorithm.dart" />
+        <item itemvalue="Dart Command Line App.ex37_convert_Strings_to_an_array_of_ascii_codes_of_each_.dart" />
+        <item itemvalue="Dart Command Line App.ex38_convert_array_of_ascii_codes_to_string.dart" />
+        <item itemvalue="Dart Command Line App.ex39_caesar_cipher.dart" />
         <item itemvalue="Dart Command Line App.ex36_convert_string_to_array_of_characters.dart" />
-        <item itemvalue="Dart Command Line App.ex32_array_with_words_inside_a_text.dart" />
-        <item itemvalue="Dart Command Line App.ex31_sum_of_numbers_received_in_a_comma_delimited_string.dart" />
-        <item itemvalue="Dart Command Line App.ex27_distance_between_first_100_prime_numbers.dart" />
       </list>
     </recent_temporary>
   </component>
