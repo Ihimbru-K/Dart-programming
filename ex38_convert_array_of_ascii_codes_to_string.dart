@@ -1,7 +1,3 @@
-// asciiArray.add(String.fromCharCode(charCode));
-//asciiArray.add(i.cod)
-
-// print(string.codeUnits);
 
 
 import 'dart:ffi';

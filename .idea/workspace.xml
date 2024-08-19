@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd7defc-41e2-439b-9c62-d8b4d02d12e5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex38_convert_array_of_ascii_codes_to_string.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex38_convert_array_of_ascii_codes_to_string.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex39_caesar_cipher.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex39_caesar_cipher.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex40_bubble_sort_algorithm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex40_bubble_sort_algorithm.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,40 +43,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Dart Command Line App.ex27_distance_between_first_100_prime_numbers.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Dart Command Line App.ex31_sum_of_numbers_received_in_a_comma_delimited_string.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Dart Command Line App.ex32_array_with_words_inside_a_text.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Dart Command Line App.ex36_convert_string_to_array_of_characters.dart.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/IHIMBRU/Desktop/chapp/Chatter-App&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;dart.settings&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Dart Command Line App.ex27_distance_between_first_100_prime_numbers.dart.executor": "Run",
+    "Dart Command Line App.ex31_sum_of_numbers_received_in_a_comma_delimited_string.dart.executor": "Run",
+    "Dart Command Line App.ex32_array_with_words_inside_a_text.dart.executor": "Run",
+    "Dart Command Line App.ex36_convert_string_to_array_of_characters.dart.executor": "Run",
+    "Dart Command Line App.ex40_bubble_sort_algorithm.dart.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/IHIMBRU/Desktop/chapp/Chatter-App",
+    "settings.editor.selected.configurable": "dart.settings",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\IHIMBRU\Desktop\dsa" />
       <recent name="C:\Users\IHIMBRU\Desktop\dsa\dart" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.ex36_convert_string_to_array_of_characters.dart">
+  <component name="RunManager" selected="Dart Command Line App.ex40_bubble_sort_algorithm.dart">
     <configuration name="ex27_distance_between_first_100_prime_numbers.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/ex27_distance_between_first_100_prime_numbers.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex30_capitalize_first_letter_in_words_in_String.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex30_capitalize_first_letter_in_words_in_String.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -91,6 +91,11 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="ex40_bubble_sort_algorithm.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex40_bubble_sort_algorithm.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="exception_handling.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/exception_handling.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -98,19 +103,19 @@
     </configuration>
     <list>
       <item itemvalue="Dart Command Line App.exception_handling.dart" />
+      <item itemvalue="Dart Command Line App.ex40_bubble_sort_algorithm.dart" />
       <item itemvalue="Dart Command Line App.ex27_distance_between_first_100_prime_numbers.dart" />
-      <item itemvalue="Dart Command Line App.ex30_capitalize_first_letter_in_words_in_String.dart" />
       <item itemvalue="Dart Command Line App.ex31_sum_of_numbers_received_in_a_comma_delimited_string.dart" />
       <item itemvalue="Dart Command Line App.ex32_array_with_words_inside_a_text.dart" />
       <item itemvalue="Dart Command Line App.ex36_convert_string_to_array_of_characters.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.ex40_bubble_sort_algorithm.dart" />
         <item itemvalue="Dart Command Line App.ex36_convert_string_to_array_of_characters.dart" />
         <item itemvalue="Dart Command Line App.ex32_array_with_words_inside_a_text.dart" />
         <item itemvalue="Dart Command Line App.ex31_sum_of_numbers_received_in_a_comma_delimited_string.dart" />
         <item itemvalue="Dart Command Line App.ex27_distance_between_first_100_prime_numbers.dart" />
-        <item itemvalue="Dart Command Line App.ex30_capitalize_first_letter_in_words_in_String.dart" />
       </list>
     </recent_temporary>
   </component>
