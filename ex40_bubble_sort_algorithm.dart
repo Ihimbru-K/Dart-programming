@@ -3,7 +3,7 @@ List<dynamic> BubbleSort(List<dynamic> inputArray) {
   bool swapped;
 
   do {
-    swapped = false; 
+    swapped = false;
 
     for (int i = 0; i < n - 1; i++) {
       if (inputArray[i] > inputArray[i + 1]) {
