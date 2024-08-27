@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd7defc-41e2-439b-9c62-d8b4d02d12e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ex40_bubble_sort_algorithm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex40_bubble_sort_algorithm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex39_caesar_cipher.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex39_caesar_cipher.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex41_distance_between_two_points_given_their_coordinates.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex41_distance_between_two_points_given_their_coordinates.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
     "Dart Command Line App.ex38_convert_array_of_ascii_codes_to_string.dart.executor": "Run",
     "Dart Command Line App.ex39_caesar_cipher.dart.executor": "Run",
     "Dart Command Line App.ex40_bubble_sort_algorithm.dart.executor": "Run",
+    "Dart Command Line App.ex41_distance_between_two_points_given_their_coordinates.dart.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -57,6 +60,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/IHIMBRU/Desktop/chapp/Chatter-App",
@@ -70,12 +74,7 @@
       <recent name="C:\Users\IHIMBRU\Desktop\dsa\dart" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.ex40_bubble_sort_algorithm.dart">
-    <configuration name="ex36_convert_string_to_array_of_characters.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex36_convert_string_to_array_of_characters.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Dart Command Line App.ex41_distance_between_two_points_given_their_coordinates.dart">
     <configuration name="ex37_convert_Strings_to_an_array_of_ascii_codes_of_each_.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/ex37_convert_Strings_to_an_array_of_ascii_codes_of_each_.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -96,6 +95,11 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="ex41_distance_between_two_points_given_their_coordinates.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex41_distance_between_two_points_given_their_coordinates.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="exception_handling.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/exception_handling.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -103,19 +107,19 @@
     </configuration>
     <list>
       <item itemvalue="Dart Command Line App.exception_handling.dart" />
+      <item itemvalue="Dart Command Line App.ex41_distance_between_two_points_given_their_coordinates.dart" />
       <item itemvalue="Dart Command Line App.ex37_convert_Strings_to_an_array_of_ascii_codes_of_each_.dart" />
       <item itemvalue="Dart Command Line App.ex38_convert_array_of_ascii_codes_to_string.dart" />
       <item itemvalue="Dart Command Line App.ex39_caesar_cipher.dart" />
       <item itemvalue="Dart Command Line App.ex40_bubble_sort_algorithm.dart" />
-      <item itemvalue="Dart Command Line App.ex36_convert_string_to_array_of_characters.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.ex41_distance_between_two_points_given_their_coordinates.dart" />
         <item itemvalue="Dart Command Line App.ex40_bubble_sort_algorithm.dart" />
         <item itemvalue="Dart Command Line App.ex37_convert_Strings_to_an_array_of_ascii_codes_of_each_.dart" />
         <item itemvalue="Dart Command Line App.ex38_convert_array_of_ascii_codes_to_string.dart" />
         <item itemvalue="Dart Command Line App.ex39_caesar_cipher.dart" />
-        <item itemvalue="Dart Command Line App.ex36_convert_string_to_array_of_characters.dart" />
       </list>
     </recent_temporary>
   </component>
