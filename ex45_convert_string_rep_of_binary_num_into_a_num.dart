@@ -2,18 +2,21 @@
 
 import 'dart:ffi';
 
+
+
 dynamic StringBinaryToDecimal(String binStr){
 
   var bin = int.parse(binStr);
   
   //int len = bin.bitLength;
+  int i = 0;
 
   var d = 0;
   var de = 0.0;
   while (bin > 0){
-    int i = 0;
+
     d = (bin % 10);
-    d = d * 2^(i);
+    d = d * (1 << i);
     de += d;
     i++;
     bin ~/= 10;
@@ -40,7 +43,7 @@ double bS(String s){
   for(int i= 0; i< len; i++){
 
 
-    de += int.parse( spli[i])* 2^(len-1) ;
+    de += int.parse( spli[i])* (1 << (len-1)) ;
     len -= 1;
 
   }
@@ -54,8 +57,9 @@ double bS(String s){
 
 void main(){
   
-  print(StringBinaryToDecimal("1"));
-  print(bS("1100"));
+  print(stringBinaryToDecimal("11111"));
+  print(stringBinaryToDecimal("11111"));
+  print(bS("11"));
   
   
   
