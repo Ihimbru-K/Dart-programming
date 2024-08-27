@@ -57,8 +57,7 @@ double bS(String s){
 
 void main(){
   
-  print(stringBinaryToDecimal("11111"));
-  print(stringBinaryToDecimal("11111"));
+  print(StringBinaryToDecimal("11111"));
   print(bS("11"));
   
   
