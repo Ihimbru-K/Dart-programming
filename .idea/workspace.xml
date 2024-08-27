@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd7defc-41e2-439b-9c62-d8b4d02d12e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ex45_convert_string_rep_of_binary_num_into_a_num.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex39_caesar_cipher.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex39_caesar_cipher.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex41_distance_between_two_points_given_their_coordinates.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex41_distance_between_two_points_given_their_coordinates.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex16_sum_of_digits_of_positive_num.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ex16_sum_of_digits_of_positive_num.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Dart Command Line App.ex16_sum_of_digits_of_positive_num.dart.executor": "Run",
     "Dart Command Line App.ex27_distance_between_first_100_prime_numbers.dart.executor": "Run",
     "Dart Command Line App.ex31_sum_of_numbers_received_in_a_comma_delimited_string.dart.executor": "Run",
     "Dart Command Line App.ex32_array_with_words_inside_a_text.dart.executor": "Run",
@@ -52,6 +53,9 @@
     "Dart Command Line App.ex39_caesar_cipher.dart.executor": "Run",
     "Dart Command Line App.ex40_bubble_sort_algorithm.dart.executor": "Run",
     "Dart Command Line App.ex41_distance_between_two_points_given_their_coordinates.dart.executor": "Run",
+    "Dart Command Line App.ex42_check_if_two_circles_intersect.dart.executor": "Run",
+    "Dart Command Line App.ex43_return_array_at_specified_index_in_multidimensional_arr.dart.executor": "Run",
+    "Dart Command Line App.ex45_convert_string_rep_of_binary_num_into_a_num.dart.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -74,29 +78,29 @@
       <recent name="C:\Users\IHIMBRU\Desktop\dsa\dart" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.ex41_distance_between_two_points_given_their_coordinates.dart">
-    <configuration name="ex37_convert_Strings_to_an_array_of_ascii_codes_of_each_.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex37_convert_Strings_to_an_array_of_ascii_codes_of_each_.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex38_convert_array_of_ascii_codes_to_string.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex38_convert_array_of_ascii_codes_to_string.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex39_caesar_cipher.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex39_caesar_cipher.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex40_bubble_sort_algorithm.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/ex40_bubble_sort_algorithm.dart" />
+  <component name="RunManager" selected="Dart Command Line App.ex45_convert_string_rep_of_binary_num_into_a_num.dart">
+    <configuration name="ex16_sum_of_digits_of_positive_num.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex16_sum_of_digits_of_positive_num.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="ex41_distance_between_two_points_given_their_coordinates.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/ex41_distance_between_two_points_given_their_coordinates.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex42_check_if_two_circles_intersect.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex42_check_if_two_circles_intersect.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex43_return_array_at_specified_index_in_multidimensional_arr.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex43_return_array_at_specified_index_in_multidimensional_arr.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex45_convert_string_rep_of_binary_num_into_a_num.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/ex45_convert_string_rep_of_binary_num_into_a_num.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -107,19 +111,19 @@
     </configuration>
     <list>
       <item itemvalue="Dart Command Line App.exception_handling.dart" />
+      <item itemvalue="Dart Command Line App.ex16_sum_of_digits_of_positive_num.dart" />
       <item itemvalue="Dart Command Line App.ex41_distance_between_two_points_given_their_coordinates.dart" />
-      <item itemvalue="Dart Command Line App.ex37_convert_Strings_to_an_array_of_ascii_codes_of_each_.dart" />
-      <item itemvalue="Dart Command Line App.ex38_convert_array_of_ascii_codes_to_string.dart" />
-      <item itemvalue="Dart Command Line App.ex39_caesar_cipher.dart" />
-      <item itemvalue="Dart Command Line App.ex40_bubble_sort_algorithm.dart" />
+      <item itemvalue="Dart Command Line App.ex42_check_if_two_circles_intersect.dart" />
+      <item itemvalue="Dart Command Line App.ex43_return_array_at_specified_index_in_multidimensional_arr.dart" />
+      <item itemvalue="Dart Command Line App.ex45_convert_string_rep_of_binary_num_into_a_num.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.ex45_convert_string_rep_of_binary_num_into_a_num.dart" />
+        <item itemvalue="Dart Command Line App.ex16_sum_of_digits_of_positive_num.dart" />
+        <item itemvalue="Dart Command Line App.ex43_return_array_at_specified_index_in_multidimensional_arr.dart" />
+        <item itemvalue="Dart Command Line App.ex42_check_if_two_circles_intersect.dart" />
         <item itemvalue="Dart Command Line App.ex41_distance_between_two_points_given_their_coordinates.dart" />
-        <item itemvalue="Dart Command Line App.ex40_bubble_sort_algorithm.dart" />
-        <item itemvalue="Dart Command Line App.ex37_convert_Strings_to_an_array_of_ascii_codes_of_each_.dart" />
-        <item itemvalue="Dart Command Line App.ex38_convert_array_of_ascii_codes_to_string.dart" />
-        <item itemvalue="Dart Command Line App.ex39_caesar_cipher.dart" />
       </list>
     </recent_temporary>
   </component>

@@ -1,6 +1,8 @@
 
 
 
+import 'dart:async';
+
 int sumOfDigitsOfPositiveNum(int num){
 
   var sum = 0;
@@ -14,7 +16,15 @@ int sumOfDigitsOfPositiveNum(int num){
 
 }
 
+
+
+
+
+
+
 void main(){
 
-  print(sumOfDigitsOfPositiveNum(102929));
+  print(sumOfDigitsOfPositiveNum(1029209));
+  
+
 }
