@@ -1,4 +1,4 @@
-
+//
 void main(){
 
   DisplayInfo(22, "Kanyimi");
